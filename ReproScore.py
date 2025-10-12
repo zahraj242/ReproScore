@@ -26,7 +26,7 @@ Enter "help" below or click "Help" above for more information.
 ... # Add logo and title
 ... col1, col2 = st.columns([1, 6])
 ... with col1:
-...     st.image("attached_assets/reproscore_1759307776165.jpg", width=80)
+...     st.image("reproscore.jpg", width=80)
 ... with col2:
 ...     st.title("ReproScore - Reproducibility Analysis App")
 ...     st.subheader("Validate Candidate Reliability and Build on Reproducible Foundations for Research Excellence")
