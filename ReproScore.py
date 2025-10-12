@@ -35,7 +35,7 @@ Enter "help" below or click "Help" above for more information.
 ... # Optional NCBI API key and email for results
 ... ncbi_api_key = st.text_input("Optional NCBI API key (for higher rate limits)", type="password")
 user_email = st.text_input("Optional Email for Results (recommended for long analyses)")
-Entrez.email = "your_real_email@example.com" # Replace with your actual email (NCBI contact email address)
+Entrez.email = "zahra.jalali@mail.mcgill.ca" # Replace with your actual email (NCBI contact email address)
 if ncbi_api_key:
     Entrez.api_key = ncbi_api_key
 # xAI API key input
